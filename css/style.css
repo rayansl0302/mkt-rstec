@@ -91,7 +91,7 @@ html {
 
 .main-navbar-nav .nav-link {
   opacity: 1 !important;
-  margin: 0 35px;
+  margin: 0 25px;
   font-size: 14.5px;
   font-weight: 500;
 }
@@ -123,8 +123,8 @@ html {
 }
 
 .fh5co-hero-inner>p {
-  width: 400px;
-  font-size: 14px;
+  width: 500px;
+  font-size: 18px;
   color: #fff;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -150,8 +150,8 @@ html {
 .fh5co-hero-inner .fh5co-hero-smartphone {
   position: absolute;
   right: 0px;
-  top: 120px;
-  height: 650px;
+  top: 50px;
+  width: 60%;
 }
 
 /* ==========================================================================================================
@@ -195,7 +195,7 @@ html {
   float: left;
   padding-right: 30px;
   position: relative;
-  top: 1px;
+  top: 50px;
   color: #648cff;
 }
 
@@ -228,7 +228,10 @@ html {
   height: auto;
   padding: 70px;
 }
+.fh5co-slider-outer .owl-item{
+  padding-left: 35px;
 
+}
 .fh5co-slider-outer h1 {
   color: #648cff;
   text-transform: uppercase;
@@ -274,7 +277,7 @@ html {
 										FEATURES
    ========================================================================================================== */
 .curved-bg-div {
-  background: url("../img/curved-bgg.jpg") no-repeat;
+  background: url("../img/curved-bgg.png") no-repeat;
   background-position: 0px -140px;
   background-size: cover;
   width: 100%;
@@ -284,7 +287,8 @@ html {
 .fh5co-features-outer {
   width: 100%;
   height: auto;
-  margin-top: -180px;
+  background-image:linear-gradient(#234197,#6ca3ff) ;
+  padding-bottom: 100px;
 }
 
 .fh5co-features-outer .col-sm-6 {
@@ -292,7 +296,9 @@ html {
 }
 
 .fh5co-features-outer .col-sm-6 img {
-  height: 550px;
+  height: 350px;
+  width: 500px;
+  margin-top: 100px;
 }
 
 .fh5co-features-outer .sm-6-content {
@@ -301,17 +307,17 @@ html {
 }
 
 .fh5co-features-outer .sm-6-content h1 {
-  color: #648cff;
+  color: #fff;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
 .fh5co-features-outer .sm-6-content p {
-  color: #111;
+  color: #fff;
   font-weight: 500;
-  font-size: 14.5px;
+  font-size: 18.5px;
   line-height: 1.8em;
   width: 450px;
 }
@@ -688,7 +694,14 @@ html {
 .google-play-btn {
   margin-left: 10px;
 }
-
+.mobile{
+  display: none;
+ }
+ .desktop{
+  display: block;
+  height: 450px;
+  width: 500px;
+ }
 /* ==========================================================================================================
                                        RESPONSIVE STYLING
   ========================================================================================================== */
@@ -699,9 +712,7 @@ html {
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
     position: absolute;
-    right: 50px;
-    top: 200px;
-    height: 550px;
+    height: 450px;
   }
 
   .curved-bg-div {
@@ -721,8 +732,7 @@ html {
   .fh5co-hero-inner .fh5co-hero-smartphone {
     position: absolute;
     right: -15px;
-    top: 200px;
-    height: 550px;
+    height: 350px;
   }
 }
 
@@ -782,7 +792,6 @@ html {
   }
 
   .fh5co-features-outer {
-    margin-top: -100px;
   }
 
   .fh5co-features-outer .sm-6-content p {
@@ -1066,9 +1075,21 @@ html {
   .fh5co-hero-inner .fh5co-hero-smartphone {
     height: 450px;
     top: 420px;
-    margin-top: 70px;
+    margin-top: 50px;
   }
-
+ .mobile{
+  display: block;
+  width: 100%;
+ }
+ .mobile img{
+  height: auto !important;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .desktop{
+  display: none;
+ }
   .social-icons-header i:first-of-type {
     font-size: 22px;
   }
@@ -1087,6 +1108,7 @@ html {
   }
 .fh5co-slider-inner .owl-item{
   padding-left: 70px;
+  
 }
   .fh5co-reviews-inner .col-sm-5 {
     -ms-flex: 0 0 90%;
