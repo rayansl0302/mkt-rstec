@@ -10,7 +10,10 @@
   padding: 0px;
   font-family: "Montserrat", "sans-serif";
 }
-
+strong{
+  display: flex;
+  justify-content: center;
+}
 html {
   overflow-x: hidden;
 }
@@ -151,7 +154,7 @@ html {
   position: absolute;
   right: 0px;
   top: 50px;
-  width: 60%;
+  width: 55%;
 }
 
 /* ==========================================================================================================
@@ -167,7 +170,7 @@ html {
 .fh5co-advantages-outer .span-perfect {
   color: #648cff;
   text-transform: uppercase;
-  font-size: 27px;
+  font-size: 40px;
   letter-spacing: 1px;
 }
 
@@ -235,7 +238,7 @@ html {
 .fh5co-slider-outer h1 {
   color: #648cff;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: center;
@@ -503,7 +506,7 @@ html {
 .fh5co-reviews-outer>h1 {
   color: #648cff;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: center;
